@@ -92,7 +92,7 @@ const Footer = () => {
                         pt-6 = padding-top (space after border)
                     */}
                     <p className="text-center text-gray-500 dark:text-gray-400 text-sm">
-                        &copy; {currentYear} PLP Task Manager. All rights reserved. Made with React & Tailwind CSS
+                        &copy; {currentYear} PLP Task Manager. All rights reserved. Made with React & Tailwind CSS by DILHT❤️
                     </p>
                 </div>
             </div>

@@ -28,7 +28,7 @@
 
     return (
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-        <h2 className="text-2xl font-bold mb-6 dark:text-white">Task Manager</h2>
+        <h2 className="text-2xl font-bold mb-6 dark:text-white">My Tasks</h2>
 
         {/* Task input form */}
         <form onSubmit={handleSubmit} className="mb-6">
