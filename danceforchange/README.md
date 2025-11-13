@@ -15,12 +15,12 @@ A modern React application for managing daily tasks with API integration, built 
 
 ## 🚀 Live Demo
 
-🔗 **Deployed URL**: [Your Vercel/Netlify URL here]
+🔗 **Deployed URL**: taskplp.netlify.app
 
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](./screenshots/home.png)
+![Home Page](./screenshots/home.png) 
 
 ### Task Manager
 ![Task Manager](./screenshots/tasks.png)
@@ -28,8 +28,6 @@ A modern React application for managing daily tasks with API integration, built 
 ### API Data Explorer
 ![API Data](./screenshots/api-data.png)
 
-### Dark Mode
-![Dark Mode](./screenshots/dark-mode.png)
 
 ## 🛠️ Technologies Used
 
@@ -51,8 +49,8 @@ A modern React application for managing daily tasks with API integration, built 
 
 1. **Clone the repository**
 ```bash
-   git clone [your-github-classroom-repo-url]
-   cd [your-repo-name]
+   git clone https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-DILHT.git
+   cd  danceforchange
 ```
 
 2. **Install dependencies**
@@ -136,6 +134,7 @@ Run the development server and test:
 - ✅ Navigation between pages
 
 ## 🚀 Deployment
+ - manually on netlify
 
 
 

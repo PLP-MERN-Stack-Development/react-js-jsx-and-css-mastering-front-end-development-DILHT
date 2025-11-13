@@ -14,7 +14,11 @@ export const ThemeProvider = ({ children }) => {
 
     // Update localStorage and HTML class on theme change
     useEffect(() => {
+        console.log('Theme changed to:', theme);
         localStorage.setItem('theme', theme);
+
+        // Check current HTML class
+    console.log('HTML classes before:', document.documentElement.classList);
         
         // Tailwind's dark mode works by adding 'dark' class to <html>
         if (theme === 'dark') {
@@ -22,10 +26,15 @@ export const ThemeProvider = ({ children }) => {
         } else {
         document.documentElement.classList.remove('dark');
         }
+
+        // Check after modification
+    console.log('HTML classes after:', document.documentElement.classList);
+    console.log('Has dark class?', document.documentElement.classList.contains('dark'));
     }, [theme]);
 
     // Toggle between light and dark
     const toggleTheme = () => {
+        console.log('Toggling theme from:', theme);
         setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
     };
 
